@@ -1,0 +1,17 @@
+y^ = sigmoid(h) output of the net work
+y = actual output
+h = sum product of weights and inputs (Dot Product)
+sigmoid(x)' = sigmoid(x)*(1-sigmoid(x))
+
+x = sigle input
+
+MSE = Error = (1/2)*(y - y^)^(1/2)
+
+MSE' = dError = (y-y^) * sigmoid(h)'
+
+MSE' = dError = (y-y^) * sigmoid(h) * (1-sigmoid(h))
+
+delta_weight = learn_rate * dError * x
+
+
+
